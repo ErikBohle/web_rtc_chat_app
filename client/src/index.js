@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import {contextProvider } from './SocketContext'
+import {ContextProvider } from './SocketContext'
 import './styles.css';
 
 ReactDOM.render(
-  <contextProvider>
+  <ContextProvider>
     <App />,
-  </contextProvider>,
+  </ContextProvider>,
   document.getElementById('root'),
 );
